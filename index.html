@@ -4,8 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--     
+    <style>
+     .dropbtn {
+         background-color: blueviolet;
+         color:white;
+
+     }
+     .dropdown {
+         position: relative;
+         display: inline-block;
+     }
+             
+    </style> -->
+    </head>
+    <body>
+        <h2>Sign Up Page</h2>
+
+        <form action ="">
+            Enter First name<input name="firstname" type="text">
+            <br><br>
+            Enter last name<input name="lastname" type="text">
+            <br><br>
+            Enter your email id<input type="email" name ="emailid">
+            <br><br>
+            Telephone no.<input type="tel" name="Telephoneno">
+            <br><br>
+            Enter password<input type= "password" name ="pass"> 
+            <!--Here pass is a variable to store password-->
+            <br><br>
+            <input type="radio" name="Gender" value="female">female
+            <input type="radio" name="Gender" value="male">Male
+            <br><br>
+            Do you know coding?<input type ="checkbox" name ="codingknowledge">Yes
+            <br><br>
+            Do you know frontend?<input type ="checkbox" name ="frontendknowledge">Yes
+            <br><br>
+            Rate Yourself on scale <input type="range" name ="rangeadd">
+            <br><br>
+            Select your favourite color<input type="color" name ="favouritecolor">
+            <br><br>
+            Enter your birthdate<input type="date" name="birthday">
+            <br><br>
+            Upload Resume<input  type="file" name ="uploadedfile">
+            <br><br>
+            <!-- Search<input type="search" name="search">
+            <br><br> -->
+            <!-- Enter Url<input type="url" name="url">
+            <br><br>
+            Enter week<input type="week" name ="week">
+            <br><br> -->
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+            <br>
+            
+            <input type ="reset">
+            <input type ="submit">
+        
+         </form>
+    </body>
 </html>
