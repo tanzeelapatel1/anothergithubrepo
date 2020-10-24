@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column {
+            float: left;
+            width: 49%; /*reduce width to add more column*/
+            height: 200px;
+            border:2px solid black;
+        }
+        .row::after{
+            content:"";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class ="row">
+        <div class = "column">
+            <h2>Column text 1</h2> 
+        </div>
+        <div class = "column">
+            <h2>Column text 2</h2> 
+        </div>
+     </div>     
+</body>
+</html>
