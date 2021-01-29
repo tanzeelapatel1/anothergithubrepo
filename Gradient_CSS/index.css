@@ -1,0 +1,23 @@
+/* .wrapper{
+    border: 2px solid white;
+    background-color: black;
+    margin: 400px;
+    padding: 200px;
+    width:50%;
+
+} */
+
+.item{
+    border: 5px solid rgb(10, 10, 10);
+    padding:  200px;
+    margin-bottom: 200px;
+}
+
+.example{
+
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform propert of CSS</title>
+    <style>
+         div.a{
+            width: 100px;
+            height: 100px;
+            margin: 100px;
+            background-color:yellow;
+            transition: width 2s;
+            /* transform: rotate(20deg); */
+        }
+        div.a:hover{
+            width: 300px;
+            height: 100px;
+            margin: 100px;
+            background-color:yellow;
+            transform: rotate(20deg);
+        }
+        div.b{
+            width: 100px;
+            height: 100px;
+            margin: 100px;
+            background-color:yellow;
+            transform: skewY(20deg);
+        }
+        div.c{
+            width: 100px;
+            height: 100px;
+            margin: 100px;
+            background-color:yellow;
+            transform: scale(2);
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        Hello world
+    </div>
+    <div class="b">
+        Hello world
+    </div>
+    <div class="c">
+        Hello world
+    </div>
+</body>
+</html>

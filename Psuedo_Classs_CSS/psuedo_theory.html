@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Pseudo Classes</title>
+    <style>
+        table , tr, td{
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+        td, th{
+            padding: 15px;
+        }
+        th{
+            text-align: left;        }
+    </style>
+</head>
+<body>
+    <h2 class="title">CSS - Pseudo Classes</h2>
+    <p>CSS pseudo-classes are used to add special effects to some selectors. 
+        You do not need to use JavaScript or any other script to use those effects.
+        <br>A simple syntax of pseudo-classes is as follows −
+    </p>
+    <code>selector:pseudo-class {property: value}</code>
+    <br>
+    <p>CSS classes can also be used with pseudo-classes −</p>
+    <code>selector.class:pseudo-class {property: value}</code>
+    <br>
+    <p>The most commonly used pseudo-classes are as follows −</p>
+    <table>
+       <tr>
+        <td>Sr.No.</td>    
+        <td style="text-align:center;">Value & Description</td>
+       </tr>
+
+       <tr>
+            <td>1</td>
+            <td ><b>:link </b>
+            <br>
+            <p>Use this class to add special style to an unvisited link.</p>
+            </td>
+        </tr>
+       
+        <tr>
+            <td>2</td>
+            <td><b>:visited</b>
+             <br>
+             Use this class to add special style to a visited link.</td>
+        </tr>
+
+        <tr> 
+           <td>3</td>
+           <td><b>:hover</b>
+            <br>
+            Use this class to add special style to an element when you mouse over it.</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td><b>:active </b>
+               <br>
+               Use this class to add special style to an active element.
+            </td>
+       </tr>
+
+       <tr>
+            <td>5</td>
+            <td><b>:focus</b>
+            <br>
+            Use this class to add special style to an element while the element has focus.
+            </td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td><b>:first-child </b>
+                <br>
+                Use this class to add special style to an element that is the first child of some other element.
+            </td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td><b>:lang </b>
+                <br>
+                Use this class to specify a language to use in a specified element.
+            </td>
+        </tr>
+    </table>
+    <p>While defining pseudo-classes in a &lt;style&gt;...&lt;/style&gt; block, following points should be noted −</p>
+        <ul>
+            <li>a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective. </li>
+            <li>a:active MUST come after a:hover in the CSS definition in order to be effective.            </li>
+            <li>Pseudo-class names are not case-sensitive.            </li>
+            <li>Pseudo-class are different from CSS classes but they can be combined.            </li>
+        </ul>
+</body>
+</html>
